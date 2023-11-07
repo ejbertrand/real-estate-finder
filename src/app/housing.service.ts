@@ -110,6 +110,8 @@ export class HousingService {
     }
   ];
 
+  constructor() { }
+
   getAllHousingLocations(): HousingLocation[] {
     return this.housingLocationList;
   }
@@ -118,5 +120,10 @@ export class HousingService {
     return this.housingLocationList.find(housingLocation => housingLocation.id === id);
   }
 
-  constructor() { }
+  subtmitApplication(firstName: string, lastName: string, email: string){
+    console.log(`Homes application received:\n
+    firstName: ${firstName},\n
+    lastName: ${lastName},\n
+    email: ${email}.`)
+  }
 }
