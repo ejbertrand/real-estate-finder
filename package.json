@@ -1,7 +1,7 @@
 {
-  "name": "angular.io-example",
+  "name": "real-estate-finder",
   "version": "0.0.0",
-  "description": "Example project from an angular.io guide.",
+  "description": "Real Estate finding application developer with TypeScript/Angular.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
