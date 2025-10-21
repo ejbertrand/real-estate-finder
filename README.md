@@ -1,4 +1,4 @@
-# Superheroes-Collection
+# Real-Estate Finder
 
 This project is a real-estate finder that reads from a JSON database of possible rental homes.
 
